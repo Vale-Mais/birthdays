@@ -25,7 +25,7 @@ For example:
 python main.py "Albert Einstein"
 ```
 
-In this case, since the band is in the archive, the output will be:
+In this case, since the name is in the database, the output will be:
 
 ```bash
 The birthday of  Albert Einstein is  03/14/1879
