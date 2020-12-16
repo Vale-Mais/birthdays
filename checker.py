@@ -18,3 +18,11 @@ def return_birthday(name):
     else:
         return print('Sadly, we don\'t have {}\'s birthday.'
                      .format(name))
+
+def check_person(person):
+    person = person.lower()
+    db = pd.DataFrame(pd.read_csv('people_birthday.csv'))
+    people = db["Person"].str.lower()
+    if person in people.values:
+        return True
+    return False
