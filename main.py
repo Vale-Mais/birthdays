@@ -1,3 +1,4 @@
+"""This module takes all the functions from the package and gives the possibility to the user to interact with the database containing the names and the birthdays of known people """
 from adding import add_person
 from checker import check_person, print_birthdays, return_birthday
 import argparse

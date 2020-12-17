@@ -1,3 +1,4 @@
+""" this module has 3 functions that interact with the database to print the whole database, return the specific birthday of a certain person, and check if a known person given as an input by the user is present in the database"""
 import csv
 import pandas as pd
 

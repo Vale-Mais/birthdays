@@ -1,4 +1,4 @@
-
+""" the module contains a single function that lets the user add the name of a known person and its birthday"""
 from checker import check_person 
 import pandas as pd
 import csv
@@ -16,13 +16,4 @@ def add_person(person):
     
     
     
-   # elif name1 == "g":
-    #    if response == "":
-   #         name2 = input("Now enter the name of the band -> ")
-    #    with open('players_bands.csv', 'a') as newFile:
-     #       newFileWriter = csv.writer(newFile)
-    #        row = len(db)
-    #        newFileWriter.writerow([row, g_or_b, name2 ])
-   #     return print("Thank you for your contribution!")
-   # else:
-  #      return print("you need to input either g or b")
+   
