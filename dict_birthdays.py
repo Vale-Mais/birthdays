@@ -1,3 +1,4 @@
+"""this module contains an already created dictionary that contains names of known people as keys and their respective birthdays as values """
 birthdays = {
     'Albert Einstein': '03/14/1879',
     'Benjamin Franklin': '01/17/1706',
