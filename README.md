@@ -56,7 +56,7 @@ positional arguments:
 
 optional arguments:
   -h, --help  show this help message and exit
-  -a, --add   add a new guitarist or band
+  -a, --add   add a new person
 ```
 
 ## Contributing
